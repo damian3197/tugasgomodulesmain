@@ -5,6 +5,14 @@ import (
 
 	modul "github.com/damian3197/tugasgomodules"
 )
+// struct
+type DataMember struct {
+	Nama string
+	PinjamBuku bool
+	StatusMember bool
+	JudulBuku string
+	LamaPeminjaman int
+}
 
 func main(){
 	I := 5
